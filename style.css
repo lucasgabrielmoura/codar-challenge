@@ -1,0 +1,281 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.cab{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+}
+.caixa{
+    height: 90%;
+    width: 32.5%;
+    display: flex;
+}
+.cx1{
+    align-items: center;
+    gap: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #D6000D;
+    margin-right: 190px;
+}
+.cx3{
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+}
+.cx2{
+    align-items: center;
+    justify-content: flex-end;
+}
+.links{
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 23px;
+}
+.links:hover{
+    color: #D6000D;
+    box-shadow: 0px 1.5px #D6000D;
+    transition: 0.3s;
+}
+
+.logo{
+    transform: skewX(-10deg);
+}
+.login{
+    width: 150px;
+    height: 40px;
+    border: 1px #D6000D;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #D6000D;
+    color: white;
+    cursor: pointer;
+}
+.login:hover{
+    border: 1px solid #D6000D;
+    color: #D6000D;
+    background-color: white;
+    transition: 0.5s;
+    box-shadow: 10px 10px rgb(160, 12, 12,0.6);
+}
+.article{
+    margin-top: 30px;
+    max-width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cxa{
+    min-width: 30%;
+    display: flex;
+}
+.cxa1{
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+.cxa2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.videoc{
+    max-width:100%;
+    max-height:100%;
+}
+.web{
+    font-size: 55px;
+    margin: 0;
+    margin-top: 10px;
+    color: #D6000D;
+}
+.ala{
+
+    margin: 0px;
+}
+.solicitar{
+    width: 300px;
+    height: 40px;
+    border: 1px #D6000D;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #D6000D;
+    color: white;
+    cursor: pointer;
+    margin-top: 35px;
+}
+.solicitar:hover{
+    border: 1px solid #D6000D;
+    color: #D6000D;
+    background-color: white;
+    transition: 0.5s;
+    box-shadow: 10px 10px rgb(160, 12, 12,0.6); 
+}
+.corpo{
+    display: flex;
+    width: 100%;
+    height: 130vh;
+    flex-flow: row wrap;
+}
+.cxs{
+    width: 50%;
+    display: flex;
+}
+.cxs1{
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+.cxs2{
+    justify-content: center;
+    align-items: flex-end;
+}
+.cxs3{
+    justify-content: flex-end;
+    width: 51%;
+}
+.options{
+    font-size: 20px;
+    margin: 0px;
+    position: relative;
+    left: 40%;
+    bottom: 60px;
+    margin-top: 20px;
+}
+.icon{
+    margin-right: 10px;
+    position: relative;
+    top: 6px;
+}
+.coding{
+    width: 70%;
+    height: 70%;
+}
+.equipe{
+    left: 0%;
+    font-weight: bold;
+    top: -15px;
+}
+.cell{
+    width: 200px;
+    height: 45px;
+    background-color: rgb(220, 220, 220);
+    border: 0px;
+    padding-left: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.ligamosbttn{
+    width: 200px;
+    height: 45px;
+    border: 1px #D6000D;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #D6000D;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.ligamosbttn:hover{
+    border: 1px solid #D6000D;
+    color: #D6000D;
+    background-color: white;
+    transition: 0.3s;
+}
+.comments{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cxc{
+    min-width: 40%;
+    max-height: 60%;
+    background-color: rgb(220, 220, 220);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cxcc{
+    width: 50%;
+    height: 80%;
+    display: flex;
+
+}
+.cxcc1{
+    height: 50%;
+    width: 30%;
+    position: relative;
+    bottom: 30px;
+}
+.cxcc2{
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+
+}
+.caixa2{
+    width: 60%;
+    height: 100%;
+    background-color: #D6000D;
+    border-radius: 50%;
+    margin-left:50px ;
+}
+.comment{
+    margin-top: 40px;
+}
+.nomes{
+    margin:3px;
+}
+.rodape{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    display: flex;
+}
+.caixas{
+    width: 25%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mkmg{
+    margin: 0px;
+    margin-left: 40px;
+}
+.mkmg2{
+    margin-top: 35px;
+}
+.logo2{
+    color: rgb(255, 255, 255);
+    transform: skewX(-10deg);
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.white{
+    color: rgb(255, 255, 255);
+}
+p{
+    margin: 0px;
+}
+.quadra{
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+.quadra2{
+    height: 1px;
+    width: 100%;
+}
+.icons2{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
